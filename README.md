@@ -35,3 +35,18 @@ A Bash script to enumerate key Google Cloud Platform (GCP) resources using REST 
    ```bash
    git clone https://github.com/yourusername/gcp-resource-enumerator.git
    cd gcp-resource-enumerator
+   ```
+2. Set your environment variables
+   Export your access token, project ID, and location in your shell:
+   ```bash
+   export TOKEN="<your-access-token>"
+   export PROJECT="<your-project-id>"
+   export LOC="<your-region>"  # e.g. us-central1
+   ```
+3. Run the script
+   Make sure the script is executable:
+   ```bash
+   chmod +x enumerate_gcp_resources.sh
+   ./enumerate_gcp_resources.sh
+   ```
+
